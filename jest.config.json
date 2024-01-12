@@ -1,0 +1,19 @@
+{
+    "verbose": true,
+    "transform": {
+        "^.+\\.tsx?$": "ts-jest"
+    },
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+        "src/**/*.ts"
+    ],
+    "coveragePathIgnorePatterns": [
+        "dist/",
+        "coverage/"
+    ],
+    "coverageReporters": [
+        "lcov",
+        "text",
+        "json-summary"
+    ]
+}

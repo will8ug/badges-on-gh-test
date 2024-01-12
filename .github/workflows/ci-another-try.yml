@@ -34,7 +34,7 @@ jobs:
           npm run cov-badges
 
       - name: Deploy GitHub Pages
-        id: deploy-github-pages
+        id: deploy-github-pages-another
         if: ${{ hashFiles('./badges') != '' }}
         uses: peaceiris/actions-gh-pages@v3
         with:

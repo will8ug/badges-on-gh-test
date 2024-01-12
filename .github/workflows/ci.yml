@@ -36,6 +36,6 @@ jobs:
         if: ${{ hashFiles('./badges') != '' }}
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: 'badges'
           clean: true
+          folder: 'badges'
           target-folder: 'badges'

@@ -42,4 +42,4 @@ jobs:
           external_repository: will8ug/will8ug.github.io
           publish_dir: ./badges
           publish_branch: main
-          destination_dir: badges-test
+          destination_dir: avoid-conflict-tests/badges-on-gh-test/badges

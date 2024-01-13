@@ -41,4 +41,5 @@ jobs:
           deploy_key: ${{ secrets.GH_PAGES_DEPLOY_KEY }}
           external_repository: will8ug/will8ug.github.io
           publish_dir: ./badges
+          publish_branch: main
           destination_dir: badges-test

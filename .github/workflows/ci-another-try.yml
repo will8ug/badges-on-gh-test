@@ -33,6 +33,7 @@ jobs:
           npm run test --if-present
           npm run cov-badges
 
+      # need to configure a repository secret to make it work
       - name: Deploy GitHub Pages
         id: deploy-github-pages-another
         if: ${{ hashFiles('./badges') != '' }}

@@ -1,6 +1,7 @@
 # badges-on-gh-test
 
 ![CI workflow](https://github.com/will8ug/badges-on-gh-test/actions/workflows/ci.yml/badge.svg)
+![Another CI workflow](https://github.com/will8ug/badges-on-gh-test/actions/workflows/ci-another-try.yml/badge.svg)
 
 ## Badges on this repository:
 ![Branches Coverage](https://will8ug.github.io/badges-on-gh-test/badges/badge-branches.svg)
